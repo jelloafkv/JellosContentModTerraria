@@ -1,0 +1,3 @@
+displayName = Jellos Content Mod
+author = ___jello
+version = 0.1
