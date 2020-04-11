@@ -26,7 +26,7 @@ namespace JellosContentMod.Items.Weapons
 			item.useStyle = 5;
 			item.shootSpeed = 14f;
 			item.useAnimation = 20;
-			item.shoot = ProjectileType<JellosContentMod.Projectiles.TrueWaterBolt>();
+			item.shoot = ProjectileType<Projectiles.TrueWaterBolt>();
 			item.value = Item.sellPrice(gold: 12);
 		}
 

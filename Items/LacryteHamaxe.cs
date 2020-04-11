@@ -11,7 +11,7 @@ namespace JellosContentMod.Items
 	public class LacryteHamaxe : ModItem
 	{
 		public override void SetDefaults() {
-			item.damage = 25;
+			item.damage = 20;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;

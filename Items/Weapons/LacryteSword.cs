@@ -27,6 +27,7 @@ namespace JellosContentMod.Items.Weapons
 			item.UseSound = SoundID.Item1;      //The sound when the weapon is using
 			item.autoReuse = true;          //Whether the weapon can use automatically by pressing mousebutton
 			item.useTurn = true;
+			Lighting.AddLight(item.Center, Color.WhiteSmoke.ToVector3() * 0.55f * Main.essScale);
 		}
 
 		public override void AddRecipes() {
